@@ -33,8 +33,15 @@ a.navbar-brand{
 .nav-link{
     color: #ffffff;
     font-size: 1.2em;
-    transition: all .5s ease-in-out
+    transition: all .5s ease-in-out;
+    font-family: 'Raleway', sans-serif;
 }
 .nav-link:hover{
     color: #e082a8;
+}
+/** Carousel **/
+.carousel-caption h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
 }
