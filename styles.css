@@ -1,0 +1,108 @@
+/*** Add your styles here **/
+/** Estilos Globales**/
+body{
+    background-color: #f8f8f8;
+}
+h2{
+    font-size: 2.4rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 2.4rem;
+}
+h2 span{
+    font-size: 3.8rem;
+    font-family: 'Italianno', cursive;
+    color: #e082a8;
+}
+
+/* barra de redes sociales*/
+.redes-sociales ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.redes-sociales ul li{
+    position: relative;
+    display: inline-block;
+}
+.redes-sociales ul li a i{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #e082a8;
+}
+/** Navegacion **/
+.navegacion{
+    background-color: #8ed3cc;
+}
+.navbar-light .navbar-toggler{
+    background-color: #ffffff;
+}
+a.navbar-brand{
+    color: #ffffff!important;
+}
+.navegacion-principal{
+    border-top: 2px dashed #ffffff;
+    border-bottom: 2px dashed #ffffff;
+}
+.nav-link{
+    color: #ffffff;
+    font-size: 1.4em;
+    transition: all .5s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-link:hover{
+    color: #e082a8;
+}
+/** Carousel**/
+.carousel-caption h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+/** Seccion nuevo sitio*/
+section.nuevo-sitio h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+section.nuevo-sitio h2 span{
+    font-family: 'Italianno', cursive;
+    font-size: 3.8rem;
+    font-weight: 400;
+    color: #e082a8;
+    
+}
+section.nuevo-sitio p{
+    color: #979797;
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+}
+/** Seccion de nuestros servicios**/
+div.imagen-servicio img{
+    border: 6px solid #ffffff;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+div.imagen-servicio img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+div.imagen-servicio div.row .servicio-info{
+    background-color: #ffffff;
+    margin-top: -5rem;
+}
+div.imagen-servicio div.row .servicio-info a.btn-primary{
+    background-color: #e082a8;
+    border: none;
+    font-size: 1.4rem;
+} 
