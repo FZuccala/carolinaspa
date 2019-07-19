@@ -174,3 +174,35 @@ section.productos .card a:hover{
 section.productos .card img{
     transition: all 0.4s ease-in-out;
 }
+/** CITAS **/
+div.citas{
+    background-image: url(../img/bg_citas.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff
+}
+div.citas h3{
+    font-size: 3.5rem;
+    font-family: 'Lato', sans-serif;
+}
+div.citas p{
+    line-height: 3rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+}
+div.citas a{
+    font-size: 1.2rem;
+    background-color: #8ed3cc;
+    padding: 1rem 5rem;
+    border-radius: 0;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+div.citas a:hover{
+    background-color: #69aca5;
+}
+footer p.copyright{
+    color: #979797;
+    font-size: .8rem;
+}
