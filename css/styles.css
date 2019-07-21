@@ -19,6 +19,18 @@ a{
 a:hover{
     text-decoration: none;
 }
+.btn-primary{
+    background-color: #8ed3cc;
+    border: none;
+    padding: 1rem 5rem;
+    border-radius: 0;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: #69aca5;
+}
 /* barra de redes sociales*/
 .redes-sociales ul{
     list-style: none;
@@ -290,4 +302,9 @@ div.cupon{
         -moz-column-count: 4;
         column-count: 4;
     }
+}
+/** Contacto **/
+.formulario-contacto{
+    border: 2px solid #9a9a9a;
+    background-color: #ffffff;
 }
