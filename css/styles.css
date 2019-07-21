@@ -129,7 +129,7 @@ div.imagen-servicio div.row .servicio-info a.btn-primary{
 }
 .horarios .table td,
 .horarios .table th{
-    border: none;
+    border: none!important;
 }
 .horarios .table tbody tr td{
     padding: .5rem;
@@ -225,6 +225,42 @@ footer p.copyright{
     font-size: 1.2rem;
     line-height: 2.2rem;
 }
-div.sidebar{
+aside{
     background-color: #8ed3cc;
+    color: #ffffff;
+}
+aside table{
+    border: 1px solid #e082a8;
+}
+aside table thead{
+    background-color: #e082a8;
+    border: none;
+}
+aside table thead th{
+    border: none!important;
+}
+/** Servicios **/
+/** acordeon **/
+#servicios .card-header{
+    background-color: #e082a8;
+    padding: 0 1.25rem;
+}
+#servicios .card-header h2 button{
+    text-decoration: none;
+    color: #ffffff!important;
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+}
+#servicios .card-body{
+    font-size: 1.3rem;
+}
+div.cupon{
+    font-size: 1.2rem;
+}
+div.cupon span.descuento{
+    font-size: 1.8rem;
+}
+div.cupon{
+    border: 2px dashed #ffffff;
+    font-family: 'Lato', sans-serif;
 }
