@@ -6,6 +6,11 @@ try{
     exit;
 }
 
+// if($bd->ping() ){
+//     echo "todo bien";
+// } else{
+//     echo $bd->connect_error;
+// }
 
 
 ?>
