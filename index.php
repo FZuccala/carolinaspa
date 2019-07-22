@@ -1,84 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="css/fontawesome.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700,900|Raleway:400,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <header class="encabezado-sitio container">
-      <div class="row justify-content-md-between align-items-center">
-        <div class="col-lg-4">
-          <a href="index.html">
-            <img src="img/logo.png" alt="logo carolina spa" class="img-fluid d-block mx-auto">
-          </a>
-          </div>
-        <div class="col-lg-4">
-          <nav class="redes-sociales">
-            <ul>
-              <li>
-                <a href="http://facebook.com">
-                  <i class="fab fa-facebook"></i>
-                  <span class="sr-only">facebook</span></a>
-                </li>
-              <li>
-                <a href="http://twitter.com">
-                  <i class="fab fa-twitter"></i>
-                  <span class="sr-only">twitter</span></a>
-                </li>
-              <li>
-                <a href="http://instagram.com">   
-                  <i class="fab fa-instagram"></i>               
-                  <span class="sr-only">instagram</span></a>
-                </li>
-              <li>
-                <a href="http://pinterest.com"> 
-                  <i class="fab fa-pinterest-p"></i>                 
-                  <span class="sr-only">pinterest</span></a>
-                </li>
-              <li>
-                <a href="http://youtube.com"> 
-                  <i class="fab fa-youtube"></i>               
-                  <span class="sr-only">youtube</span></a>
-                </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <div class="navegacion mt-3 py-1">
-      <nav class="navegacion-principal navbar navbar-expand-md navbar-light bg-faded">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_principal" aria-label="Mostrar Navegacion">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a href="#" class="navbar-brand d-lg-none">Carolina Spa</a>
-        <div class="container">
-            <div class="collapse navbar-collapse w-100" id="nav_principal">
-                <ul class="nav nav-justified w-100 flex-column flex-md-row">
-                  <li class="nav-item">
-                    <a href="index.html" class="nav-link">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="nosotros.html" class="nav-link">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                        <a href="servicios.html" class="nav-link">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="productos.html" class="nav-link">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="contacto.html" class="nav-link">Contacto</a>
-                  </li>
-                </ul>
-            </div>
-        </div>
-      </nav>
-    </div><!--fin .navegacion-->
+<?php
+  include 'templates/header.php';
+  include 'templates/navegacion.php';
+
+?>
+
     <div class="container">
       <div id="slider-principal" class="carousel slide mt-4" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -294,63 +219,6 @@
         </div>
       </div>
     </div>
-    <footer class="footer-sitio pt-3 mt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <h3 class="text-uppercase pb-4">Nosotros</h3>
-            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, repudiandae ad? Culpa quisquam molestiae vero eius? Quis quisquam saepe unde et esse facilis ratione aliquam quod, quibusdam eos molestiae consectetur!</p>
-          </div>
-          <div class="col-md-4 text-center">
-            <h3 class="text-uppercase pb-4">horario</h3>
-            <p>Lun-Vie: 9 AM - 7PM</p>
-            <p>Sábado: 10 AM - 2PM</p>
-            <p>Domingo: Cerrado</p>
-          </div>
-          <div class="col-md-4 text-center">
-            <h3 class="text-uppercase pb-4">contacto</h3>
-            <p>66 East Sunnyslope Avenue</p>
-            <p>Lansdowne, PA 19050</p>
-            <nav class="redes-sociales text-center">
-              <ul>
-                <li>
-                  <a href="http://facebook.com">
-                    <i class="fab fa-facebook"></i>
-                    <span class="sr-only">facebook</span></a>
-                  </li>
-                <li>
-                  <a href="http://twitter.com">
-                    <i class="fab fa-twitter"></i>
-                    <span class="sr-only">twitter</span></a>
-                  </li>
-                <li>
-                  <a href="http://instagram.com">   
-                    <i class="fab fa-instagram"></i>               
-                    <span class="sr-only">instagram</span></a>
-                  </li>
-                <li>
-                  <a href="http://pinterest.com"> 
-                    <i class="fab fa-pinterest-p"></i>                 
-                    <span class="sr-only">pinterest</span></a>
-                  </li>
-                <li>
-                  <a href="http://youtube.com"> 
-                    <i class="fab fa-youtube"></i>               
-                    <span class="sr-only">youtube</span></a>
-                  </li>
-              </ul>
-            </nav>
-          </div>
-          <hr class="w-100">
-          <p class="w-100 text-center copyright">
-            Carolina Spa & Salon 2019. Todos los derechos reservados.
-          </p>
-        </div><!--fin row-->
-      </div><!--fin container-->
-    </footer>
-    <script src="js/jquery.slim.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
-</html>
+    <?php
+  include 'templates/footer.php';
+?>
