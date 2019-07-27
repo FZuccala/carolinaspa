@@ -7,7 +7,7 @@
       exit;
     }
   }
-
+  $titulo = "Productos";
   include 'templates/header.php';
   include 'templates/navegacion.php';
   include 'inc/funciones.php';

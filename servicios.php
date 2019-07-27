@@ -1,4 +1,5 @@
 <?php
+  $titulo = "Servicios";
   include 'templates/header.php';
   include 'templates/navegacion.php';
 ?>
@@ -79,15 +80,9 @@
 
         </div>
     </div>
-    <div class="container-fluid citas mt-4 py-5">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6 text-center">
-            <h3 class="text-uppercase">Realiza una cita</h3>
-            <p class="mt-5">Maecenas rhoncus, augue sed volutpat suscipit, augue felis laoreet lectus, vel convallis diam est eu lectus. Mauris metus orci, tempus nec bibendum eget, pulvinar at metus. Etiam egestas sodales auctor.</p>
-            <a href="#" class="btn btn-primary mt-3 text-uppercase">Leer más</a>
-          </div>
-        </div>
-      </div>
+    <?php
+  include 'templates/citas.php';
+?>
 
       <?php
   include 'templates/footer.php';

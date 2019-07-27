@@ -1,4 +1,5 @@
 <?php
+  $titulo = "Nosotros";
   include 'templates/header.php';
   include 'templates/navegacion.php';
 ?>

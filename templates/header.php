@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +8,13 @@
     <link href="css/fontawesome.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700,900|Raleway:400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <title><?php echo $titulo; ?> | Carolinaspa</title>
   </head>
   <body>
     <header class="encabezado-sitio container">
       <div class="row justify-content-md-between align-items-center">
         <div class="col-lg-4">
-          <a href="index.html">
+          <a href="index.php">
             <img src="img/logo.png" alt="logo carolina spa" class="img-fluid d-block mx-auto">
           </a>
           </div>

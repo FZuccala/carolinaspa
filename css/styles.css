@@ -19,6 +19,9 @@ a{
 a:hover{
     text-decoration: none;
 }
+.active{
+    color: #e082a8!important;
+}
 .btn-primary{
     background-color: #8ed3cc;
     border: none;
