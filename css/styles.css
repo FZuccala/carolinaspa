@@ -19,9 +19,7 @@ a{
 a:hover{
     text-decoration: none;
 }
-.active{
-    color: #e082a8!important;
-}
+
 .btn-primary{
     background-color: #8ed3cc;
     border: none;
@@ -59,6 +57,7 @@ a:hover{
 .navbar-light .navbar-toggler{
     background-color: #ffffff;
 }
+
 a.navbar-brand{
     color: #ffffff!important;
 }
@@ -310,4 +309,8 @@ div.cupon{
 .formulario-contacto{
     border: 2px solid #9a9a9a;
     background-color: #ffffff;
+}
+.active{
+    background-color: #69aca5!important;
+    border-radius: 15px;
 }

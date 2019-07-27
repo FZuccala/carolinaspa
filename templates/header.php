@@ -1,3 +1,26 @@
+<?php
+  //Definir un nombre para cachear
+  $archivo = basename($_SERVER['PHP_SELF']);
+  $pagina = str_replace('.php', "", $archivo);
+
+  //Definir archivo para cachear (puede ser .php tambien)
+  if(isset($_GET['id'])){
+    $archivoCache = 'cache/'.$pagina.'-'.$_GET['id'].'.html';
+  } else {
+    $archivoCache = 'cache/'.$pagina.'.html';
+  }
+  
+  //Cuanto tiempo debera estar almacenado ese archivo
+  $tiempo = 36000;
+  //Verificar que el archivo existe, el tiempo sea el adecuado y lo muestre
+  if(file_exists($archivoCache) && time() - $tiempo < filemtime($archivoCache)){
+    include $archivoCache;
+    exit;
+  }
+  //Si el archivo no existe o el tiempo de cacheo ya se vencio genera uno nuevo
+  ob_start();
+
+?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
