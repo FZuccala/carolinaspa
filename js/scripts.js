@@ -29,6 +29,15 @@
               if(xhr.status === 200){
                 var respuesta = JSON.parse(xhr.responseText);
                 console.log(respuesta);
+                if(respuesta.respuesta === true){
+                  var div = document.createElement("div");
+                  div.appendChild(document.createTextNode("Mensaje enviado correctamente."));
+                  div.classList.add('alert', 'alert-success', 'mt-4', 'text-center');
+                  document.querySelector('form').appendChild(div);
+                  setTimeout(function(){
+                    document.querySelector('.alert').remove();
+                  }, 3000);
+                }
               } else{
                 
                 
