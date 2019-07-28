@@ -27,7 +27,7 @@
             //Revisar el estado
             xhr.onload = function() {
               if(xhr.status === 200){
-                var respuesta = xhr.responseText;
+                var respuesta = JSON.parse(xhr.responseText);
                 console.log(respuesta);
               } else{
                 

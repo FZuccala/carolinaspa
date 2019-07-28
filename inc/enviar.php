@@ -12,6 +12,7 @@ $mensajeCorreo .= "Mensaje:: " . $mensaje . "\r\n";
 $para = "federico_zuccala@hotmail.com";
 $asunto = "Contacto de sitio web";
 mail($para, $asunto, utf8_encode($mensajeCorreo), $header );
+
 echo json_encode(array(
     'mensaje' => sprintf('El mensaje se ha enviado!'),
     'datos' => array(
